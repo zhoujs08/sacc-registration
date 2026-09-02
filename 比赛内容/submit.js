@@ -291,5 +291,28 @@ baomingBiaodan.addEventListener('submit', function (event) {
 // 页面打开时显示以前保存的数据
 renderRegistrationTable();
 
+// 报名截止时间：2026年9月5日晚上24点前
+const baomingJiezhiShijian = new Date('2026-09-05T23:59:59+08:00');
+const daojishi = document.querySelector('#daojishi');
+
+// 计算并显示剩余的天和小时
+function gengxinDaojishi() {
+  const xianzaiShijian = new Date();
+  const shengyuHaomiao = baomingJiezhiShijian - xianzaiShijian;
+
+  if (shengyuHaomiao <= 0) {
+    daojishi.textContent = '报名已截止';
+    return;
+  }
+
+  const shengyuMiaoshu = Math.floor(shengyuHaomiao / 1000);
+  const tian = Math.floor(shengyuMiaoshu / 86400);
+  const xiaoshi = Math.floor((shengyuMiaoshu % 86400) / 3600);
+  daojishi.textContent = tian + ' 天 ' + xiaoshi + ' 小时';
+}
+
+gengxinDaojishi();
+setInterval(gengxinDaojishi, 60000);
+
 
 

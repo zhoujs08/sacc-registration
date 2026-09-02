@@ -69,3 +69,10 @@ body {margin: 0;background-color: #f5f7fa;font-family: Arial, sans-serif;}
 
 #kong-shuju-tishi { color: #777;text-align: center;}
 
+/* 报名截止时间倒计时 */
+.daojishi-quyu {margin-bottom: 24px;padding: 16px;text-align: center;background-color: #edf5ff;border: 1px solid #b8d6f5;border-radius: 6px;}
+
+.daojishi-quyu p {margin: 0 0 10px;color: #555;}
+
+#daojishi {color: #2878d0;font-size: 24px;font-weight: bold;}
+
