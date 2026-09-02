@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SACC 比赛简介</title>
+
+  <style>
+    * {box-sizing: border-box;}
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      padding: 30px 20px;
+      color: #333;
+      background-color: #f5f7fa;
+      font-family: Arial, sans-serif;
+    }
+
+    .bisai-jianjie {
+      width: 100%;
+      max-width: 900px;
+      min-height: calc(100vh - 60px);
+      margin: 0 auto;
+      padding: 48px 56px;
+      background-color: white;
+      border-radius: 8px;
+    }
+
+    h1 {
+      margin: 0 0 36px;
+      color: #2878d0;
+      font-size: 32px;
+    }
+
+    .xinxi-liebiao {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 25px;
+    }
+
+    .xinxi-hang {
+      display: flex;
+      font-size: 19px;
+      line-height: 1.7;
+    }
+
+    .xinxi-mingcheng {
+      width: 120px;
+      color: #777;
+      flex-shrink: 0;
+    }
+
+    .xinxi-neirong {
+      color: #222;
+    }
+
+    .bisai-shuoming {
+      margin: 36px 0 0;
+      padding-top: 32px;
+      font-size: 19px;
+      line-height: 2;
+      border-top: 1px solid #e1e5ea;
+    }
+
+    @media (max-width: 650px) {
+      body {padding: 20px 12px;}
+      .bisai-jianjie {min-height: calc(100vh - 40px);padding: 30px 22px;}
+      h1 {font-size: 28px;}
+      .xinxi-liebiao {grid-template-columns: 1fr;gap: 14px;}
+      .xinxi-hang {font-size: 17px;}
+      .xinxi-mingcheng {width: 95px;}
+      .bisai-shuoming {font-size: 17px;}
+    }
+  </style>
+</head>
+
+<body>
+  <main class="bisai-jianjie">
+    <h1>比赛信息</h1>
+
+    <section class="xinxi-liebiao">
+      <div class="xinxi-hang">
+        <span class="xinxi-mingcheng">比赛名称</span>
+        <span class="xinxi-neirong">SACC 科技创新大赛</span>
+      </div>
+
+      <div class="xinxi-hang">
+        <span class="xinxi-mingcheng">主办单位</span>
+        <span class="xinxi-neirong">计算机学院科学技术协会</span>
+      </div>
+
+      <div class="xinxi-hang">
+        <span class="xinxi-mingcheng">比赛时间</span>
+        <span class="xinxi-neirong">2026 年 9 月 15 日</span>
+      </div>
+
+      <div class="xinxi-hang">
+        <span class="xinxi-mingcheng">比赛地点</span>
+        <span class="xinxi-neirong">南邮仙林校区 计算机学科楼</span>
+      </div>
+
+      <div class="xinxi-hang">
+        <span class="xinxi-mingcheng">报名截止</span>
+        <span class="xinxi-neirong">2026 年 9 月 10 日 23:59</span>
+      </div>
+
+      <div class="xinxi-hang">
+        <span class="xinxi-mingcheng">面向对象</span>
+        <span class="xinxi-neirong">南京邮电大学全体在校生</span>
+      </div>
+    </section>
+
+    <p class="bisai-shuoming">
+      本次大赛旨在激发同学们的创新思维和实践能力，设“创新设计”“算法挑战”“创业实践”三条赛道。参赛者可以个人或团队（不超过 3 人）形式报名，获奖队伍将获得校级证书及丰厚奖品，优秀项目更有机会获得学院孵化支持。
+    </p>
+  </main>
+</body>
+</html>

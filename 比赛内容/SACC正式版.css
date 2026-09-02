@@ -76,3 +76,28 @@ body {margin: 0;background-color: #f5f7fa;font-family: Arial, sans-serif;}
 
 #daojishi {color: #2878d0;font-size: 24px;font-weight: bold;}
 
+/* 手机端适配：屏幕宽度不超过 768px 时使用 */
+@media (max-width: 768px) {
+  .yemian-toubu {padding: 20px 12px 8px;}
+
+  .yemian-toubu h1 {font-size: 26px;}
+
+  .yemian-zhuti {display: block;padding: 12px;}
+
+  .biaodan-quyu,
+  .cebianlan {width: 100%;padding: 18px;}
+
+  .cebianlan {margin-top: 16px;}
+
+  .anniu-zu {flex-direction: column;}
+
+  .anniu-zu button {width: 100%;}
+
+  #daojishi {font-size: 20px;}
+
+  .shuju-quyu {padding: 18px 0 0;}
+
+  .baoming-biaoge th,
+  .baoming-biaoge td {padding: 10px;font-size: 14px;}
+}
+
