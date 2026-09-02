@@ -1,8 +1,20 @@
-# sacc-registration
-校内 SACC 前端学习与比赛报名网站
-这是我的第一个学习比赛项目
-采用最基本的html，css，Javascript。
-在练习过程中尝试过tailwindcss，vue但是正式项目中未采用，在开学后有计划先进行系统学习在做具体应用项目
-嗯你不用装任何环境，直接看就行了。
+# 前端练习项目
 
+这是仓库的 `lianxi` 分支，用于归纳 HTML、CSS、JavaScript 和 Vue 入门练习。
 
+## 练习页面
+
+- `html-lianxi.html`：HTML 标签、表格、表单和基础 JavaScript 练习。
+- `css-lianxi.css`：HTML 练习页面使用的 CSS。
+- `sacc-lianxiban.html`：SACC 报名页面早期练习版本。
+- `vue-chu-tiyan.html`：Vue 初体验页面。
+- `daheji.html`：基础内容合集练习。
+
+## 笔记和素材
+
+- `lianxi-css-changyong-xiushi-xuexi-biji.css`：常用 CSS 修饰纯注释学习笔记。
+- `biji.docx`：学习笔记文档。
+- `pingmu-jietu-2026-08-19-162807.png`：HTML 页面使用的练习图片。
+- `ai-duihua-jilu`：AI 辅助学习记录。
+
+这些内容主要采用基础 HTML、CSS 和 JavaScript。下载后直接打开对应 HTML 文件即可预览；`html-lianxi.html` 使用了在线 Tailwind CSS 资源，预览该部分效果时需要联网。
